@@ -20,27 +20,6 @@ Requires WP:       4.9
  *
  * Copyright 2018 Luciano Croce (email: luciano.croce@gmail.com)
  *
- * I tried to inform "The Gutenberg Team" about this problem, several times, but nothing happened,
- * so I decided to publish this patch on my GitHub and send it to the plugin directory for approval.
- *
- * Now all the polyglots can translate these strings "separately" according to their local language without restrictions.
- *
- * The code above is ported from the original Gutenberg 4.1+ gutenberg.php installation package zip file.
- * The only differences is:
- *  - <?php echo esc_js( __( 'Block Editor', 'gutenberg' ) ); ?> instead of simple >Gutenberg< string.
- *  - __( 'Classic Edit', 'gutenberg' ) instead of __( 'Classic Editor', 'gutenberg' )
- *
- * I have translated the string "Gutenberg" with Block Editor according to the @nao reccomandation in the latest polyglots meeting.
- * 
- * Please note: when Gutenberg becomes a part of core, the new editor will be referred to as "Block Editor"
- * Both the TinyMCE and current HTML editor should be called Classic Editor, not just the Visual Editor, or Editor Classic.
- *
- * Also @ocean90 wrote on wordpress.org blog:
- *
- * The Block Editor.
- * The new Gutenberg block editor is now the default post editor!
- * The block editor provides a modern, media-rich editing experience.
- *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
  * General Public License version 2, as published by the Free Software Foundation. You may NOT assume
  * that you can use any other compatible version of the GPL, or version compatible with GPL.
@@ -70,11 +49,37 @@ Requires WP:       4.9
  *
  */
 
+if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION', '0.0.1' );
+if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE', '2018-10-26' );
+ 
 remove_action( 'admin_init', 'gutenberg_add_edit_link_filters', 0 );
 remove_action( 'admin_print_scripts-edit.php', 'gutenberg_replace_default_add_new_button', 0 );
 
 add_action( 'admin_init', 'gutenberg_add_edit_link_filters_translation_patch', 0 );
 add_action( 'admin_print_scripts-edit.php', 'gutenberg_replace_default_add_new_button_translation_patch', 0 );
+
+add_filter( 'plugins_loaded', 'gutenberg_replace_default_add_new_button_translation_patch_plugin_textdomain', 0 );
+add_filter( 'plugins_loaded', 'gutenberg_replace_default_add_new_button_translation_patch_muplugin_textdomain', 0 );
+
+/**
+ * Load Plugin Textdomain.
+ *
+ * @author  Luciano Croce <luciano.croce@gmail.com>
+ * @version 0.0.1 (Build 2018-10-26)
+ */
+function gutenberg_replace_default_add_new_button_translation_patch_plugin_textdomain() {
+	load_plugin_textdomain( 'dismiss-gutenberg-nag', false, basename( dirname( __FILE__ ) ) . '/languages' );
+}
+
+/**
+ * Load MU-Plugin (dir) Textdomain.
+ *
+ * @author  Luciano Croce <luciano.croce@gmail.com>
+ * @version 0.0.1 (Build 2018-10-26)
+ */
+function gutenberg_replace_default_add_new_button_translation_patch_muplugin_textdomain() {
+	load_muplugin_textdomain( 'dismiss-gutenberg-nag', basename( dirname( __FILE__ ) ) . '/languages' );
+}
 
 /**
  * Prints the JavaScript to replace the default "Add New" button.$_COOKIE
@@ -114,8 +119,8 @@ function gutenberg_replace_default_add_new_button_translation_patch() {
 			var newbutton = '<span id="split-page-title-action" class="split-page-title-action">';
 			newbutton += '<a href="' + url + '">' + button.innerText + '</a>';
 			newbutton += '<span class="expander" tabindex="0" role="button" aria-haspopup="true" aria-label="<?php echo esc_js( __( 'Toggle editor selection menu', 'gutenberg' ) ); ?>"></span>';
-			newbutton += '<span class="dropdown"><a href="' + url + '"><?php echo esc_js( __( 'Block Editor', 'gutenberg' ) ); ?></a>';
-			newbutton += '<a href="' + classicUrl + '"><?php echo esc_js( __( 'Classic Editor', 'gutenberg' ) ); ?></a></span></span><span class="page-title-action" style="display:none;"></span>';
+			newbutton += '<span class="dropdown"><a href="' + url + '"><?php echo esc_js( __( 'Block Editor', 'gutenberg-translation-patch' ) ); ?></a>';
+			newbutton += '<a href="' + classicUrl + '"><?php echo esc_js( __( 'Classic Editor', 'gutenberg-translation-patch' ) ); ?></a></span></span><span class="page-title-action" style="display:none;"></span>';
 			button.insertAdjacentHTML( 'afterend', newbutton );
 			button.parentNode.removeChild( button );
 			var expander = document.getElementById( 'split-page-title-action' ).getElementsByClassName( 'expander' ).item( 0 );
@@ -213,7 +218,7 @@ function gutenberg_add_edit_link_translation_patch( $actions, $post ) {
 					$title
 				)
 			),
-			__( 'Classic Edit', 'gutenberg' )
+			__( 'Classic Edit', 'gutenberg-translation-patch' )
 		),
 	);
 
