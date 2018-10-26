@@ -13,7 +13,7 @@ msgstr ""
 
 #: gutenberg.php:312
 msgid "Classic Edit"
-msgstr "Classic Edit"
+msgstr "Modifica classica"
 
 #: gutenberg.php:461
 msgid "Block Editor"
