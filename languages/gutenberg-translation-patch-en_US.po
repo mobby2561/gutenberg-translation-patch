@@ -1,5 +1,5 @@
-# Translation of Plugins - Gutenberg - Stable (latest release) in English (US)
-# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
+# Translation of Plugins - Gutenberg Translation Patch - Stable (latest release) in English (US)
+# This file is distributed under the same license as the Plugins - Gutenberg Translation Patch - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2018-10-25 19:00:53+0000\n"
@@ -9,16 +9,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: en_US\n"
-"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Gutenberg Translation Patch - Stable (latest release)\n"
 
-#: gutenberg.php:312
+#. Description of the plugin/theme
+msgid "Patch the missing translation strings code on Gutenberg file gutenberg.php"
+msgstr "Patch the missing translation strings code on Gutenberg file gutenberg.php"
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg Translation Patch"
+msgstr "Gutenberg Translation Patch"
+
+#: gutenberg-translation-patch.php:122
 msgid "Classic Edit"
 msgstr "Classic Edit"
 
-#: gutenberg.php:461
+#: gutenberg-translation-patch.php:123
 msgid "Block Editor"
 msgstr "Block Editor"
 
-#: gutenberg.php:462
+#: gutenberg-translation-patch.php:221
 msgid "Classic Editor"
 msgstr "Classic Editor"
