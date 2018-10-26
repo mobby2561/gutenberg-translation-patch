@@ -68,7 +68,7 @@ add_filter( 'plugins_loaded', 'gutenberg_replace_default_add_new_button_translat
  * @version 0.0.1 (Build 2018-10-26)
  */
 function gutenberg_replace_default_add_new_button_translation_patch_plugin_textdomain() {
-	load_plugin_textdomain( 'dismiss-gutenberg-nag', false, basename( dirname( __FILE__ ) ) . '/languages' );
+	load_plugin_textdomain( 'gutenberg-translation-patch', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
 
 /**
@@ -78,7 +78,7 @@ function gutenberg_replace_default_add_new_button_translation_patch_plugin_textd
  * @version 0.0.1 (Build 2018-10-26)
  */
 function gutenberg_replace_default_add_new_button_translation_patch_muplugin_textdomain() {
-	load_muplugin_textdomain( 'dismiss-gutenberg-nag', basename( dirname( __FILE__ ) ) . '/languages' );
+	load_muplugin_textdomain( 'gutenberg-translation-patch', false, basename( dirname( __FILE__ ) ) . '/' );
 }
 
 /**
