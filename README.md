@@ -24,8 +24,8 @@ Included Translations:
 
 Coming Soon Translations:
 
-- bal * - Catalan Balear
-- ca ** - Catalan
+- bal   - Catalan Balear (this refer to island)
+- ca    - Catalan (is included valencia)
 - fr_FR - French
 - fr_BE - French Belgium
 - fr_CA - French Canada
@@ -43,7 +43,4 @@ Coming Soon Translations:
 - es_MX - Spanish Mexico
 - es_PE - Spanish Peru
 - es_US - Spanish US
-
- * This refer to island
-** Is included Valencia
 
