@@ -2,8 +2,6 @@
 
 Patch the missing translation strings code on Gutenberg file gutenberg.php
 
-I tried to inform "The Gutenberg Team" about this problem, several times, but nothing happened.
-
 Because the plugin directory don't generally accept "patch as plugin" and not for translations I decided to publish this patch only on my GitHub.
 
 Now all the polyglots can translate these strings "separately" according to their local language without restrictions!
