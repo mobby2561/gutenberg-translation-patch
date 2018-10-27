@@ -30,3 +30,37 @@ msgstr "Block Editor"
 #: gutenberg-translation-patch.php:221
 msgid "Classic Editor"
 msgstr "Classic Editor"
+
+#
+# Classic Editor -> Classic Editor -> Classic Editor Plugin Name
+#
+# Classic editor -> Editor classico
+# classic editor -> editor classico
+#
+# Block Editor -> Block Editor -> Block Editor Plugin Name (Codename Gutenberg)
+#
+# Block editor -> Editor dei blocchi
+# block editor -> editor dei blocchi
+# 
+# Classic Block -> Classic Block -> Label or Button
+#
+# Classic block -> Blocco classico
+# classic block -> blocco classico
+#
+# Classic Blocks -> Classic Blocks -> Label or Button
+#
+# Classic blocks -> Blocchi classici
+# classic blocks -> Blocchi classici
+#
+# Block -> Blocco
+# block -> blocco
+#
+# Blocks -> Blocchi
+# blocks -> blocchi
+#
+# Classic -> Classico
+# classic -> classico
+#
+# Classics -> Classici
+# classics -> classici
+#
