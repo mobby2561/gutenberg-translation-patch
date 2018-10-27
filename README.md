@@ -6,7 +6,7 @@ Because the plugin directory don't generally accept "patch as plugin" and not fo
 
 Now all the polyglots can translate these strings "separately" according to their local language without restrictions!
 
-I have add the gutenberg-translation-patch.txt file that it can be used with PoEdit to generate the local translation for your language.
+I have add the gutenberg-translation-patch.pot file that it can be used with PoEdit to generate the local translation for your language.
 
 Some translations was add on distribution file, and more others are coming soon.
 
@@ -44,7 +44,7 @@ Coming Soon Translations:
 - de_DE - German
 - sv_SE - Swedish (partial translated) Help me for this!
 
-I need translation help for this:
+I need translation help for this: (ping and send me on slack)
 
 - Dansk
 - Greek
