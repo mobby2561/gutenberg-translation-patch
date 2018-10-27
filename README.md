@@ -18,20 +18,18 @@ Included Translations:
 - en_ZA - English South Africa
 - en_GB - English UK
 - en_US - English US
+- es_ES - Spanish Spain
+- fr_FR - French
+- fr_BE - French Belgium
+- fr_CA - French Canada
 - it_IT - Italian
 
 Coming Soon Translations:
 
 - bal   - Catalan Balear (this refer to island)
 - ca    - Catalan (is included valencia)
-- fr_FR - French
-- fr_BE - French Belgium
-- fr_CA - French Canada
 - de_CH - German Switzerland
 - de_DE - German
-- pt_BR - Portuguese Brazil
-- pt_PT - Portuguese Portugal
-- es_ES - Spanish Spain
 - es_AR - Spanish Argentina
 - es_CL - Spanish Chile
 - es_CO - Spanish Colombia
@@ -41,4 +39,6 @@ Coming Soon Translations:
 - es_MX - Spanish Mexico
 - es_PE - Spanish Peru
 - es_US - Spanish US
-
+- pt_BR - Portuguese Brazil
+- pt_PT - Portuguese Portugal
+- sv_SE - Swedish
