@@ -33,6 +33,8 @@ Included Translations:
 - fr_BE - French Belgium
 - fr_CA - French Canada
 - it_IT - Italian
+- pt_BR - Portuguese Brazil
+- pt_PT - Portuguese Portugal
 
 Coming Soon Translations:
 
@@ -40,9 +42,7 @@ Coming Soon Translations:
 - ca    - Catalan (Valencia)
 - de_CH - German Switzerland
 - de_DE - German
-- pt_BR - Portuguese Brazil
-- pt_PT - Portuguese Portugal
-- sv_SE - Swedish
+- sv_SE - Swedish (partial translated) Help me for this!
 
 I need translation help for this:
 
