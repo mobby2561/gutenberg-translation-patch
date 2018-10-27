@@ -2,6 +2,10 @@
 
 **Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
 
+Because the plugin directory don't generally accept "patch as plugin" and not for translations I decided to publish this patch only on my GitHub.
+
+Now all the polyglots can translate these strings "separately" according to their local language without restrictions!
+
 **Describe the bug** -- _Updated 2018-10-28_
 
 _The behavior description:_
@@ -22,9 +26,7 @@ _Steps to fix the behavior:_
 - **Add missed translation code string** `<?php echo esc_js( __( 'Gutenberg', 'gutenberg' ) ); ?>` on script in function gutenberg_replace_default_add_new_button file gutenberg.php:461
 - **Separate translation of shared strings** on script in function gutenberg_replace_default_add_new_button file gutenberg.php:312 and gutenberg.php:462
 
-Because the plugin directory don't generally accept "patch as plugin" and not for translations I decided to publish this patch only on my GitHub.
-
-Now all the polyglots can translate these strings "separately" according to their local language without restrictions!
+**Translation**
 
 I have add the gutenberg-translation-patch.pot file that it can be used with PoEdit to generate the local translation for your language.
 
