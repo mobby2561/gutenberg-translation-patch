@@ -32,8 +32,6 @@ msgid "Classic Editor"
 msgstr "Éditeur Classique"
 
 #
-# Alternative Local Translations:
-#
 # Classic Editor -> Éditeur Classique -> Classic Editor Plugin Name
 #
 # Classic editor -> Éditeur classique
@@ -54,7 +52,15 @@ msgstr "Éditeur Classique"
 # Classic blocks -> Blocs classiques
 # classic blocks -> blocs classiques
 #
-# Block -> Bloc -> bloc
-# Blocks -> Blocs -> blocs
+# Block -> Bloc
+# block -> bloc
 #
-
+# Blocks -> Blocs
+# blocks -> blocs
+#
+# Classic -> Classique
+# classic -> classique
+#
+# Classics -> Classiques
+# classics -> classiques
+#
