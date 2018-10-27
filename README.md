@@ -1,6 +1,6 @@
 # Gutenberg Translation Patch
 
-**Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
+**Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php **for** a **better understanding** of the **meaning**.
 
 **Describe the bug** -- _Updated 2018-10-28_
 
