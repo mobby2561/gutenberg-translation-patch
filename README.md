@@ -16,7 +16,7 @@ _The behavior description:_
 
 _Steps to reproduce the behavior:_
 - The **string "Gutenberg"** in file gutenberg.php:461 is **not translatable**.
-- The **strings** gutenberg.php:312 and gutenberg.php:462 **share same translation**, **but** in most cases **is preferable separate translations**.
+- The **strings** gutenberg.php:312 and gutenberg.php:462 **share same translation**, **but is preferable separate translations**.
 
 **Expected behavior**
 
