@@ -2,7 +2,17 @@
 
 **Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
 
+> This **patch** is **translated in 28 languages** and more **others 11 in becoming** (help me in your lang) see translation.
+
 Because the "WordPress Plugin Directory" don't generally accept "patch as plugin" and not for translations, I decided to publish it only on my GitHub, and open an official issue https://github.com/WordPress/gutenberg/issues/11120/ on the Gutenberg development page: now all the polyglots can translate these strings "separately" according to their local language, without restrictions!
+
+**Compatibility**
+- Gutenberg 4.1.1
+- Classic Editor 0.5
+- WordPress 5.0-beta1
+- WordPress 4.9+
+- WordPress Branche (src) 5.0-alpha development
+- WordPress Trunk (src) 5.1-alpha development
 
 **Describe the bug** -- _Updated 2018-10-28_
 
@@ -86,21 +96,3 @@ I need translation help for this: (ping and send me on slack)
 - https://github.com/luciano-croce/gutenberg-translation-patch/blob/master/screenshot-4.png
 
 > The menu shown in the screenshots is added by the Gutenberg Plugin and not by the WordPress Core.
-
-**Additional context**
-- My **patch as plugin** https://github.com/luciano-croce/gutenberg-translation-patch/
-- Gutenberg 4.1.1
-- WordPress 5.0-beta1
-
-> The **patch** is **translated in 28 languages** and more **others 11 in becoming** (help me in your lang).
-
-**Desktop (please complete the following information):**
- - OS: [All]
- - Browser [All]
- - Version [All]
-
-**Smartphone (please complete the following information):**
- - Device: [All]
- - OS: [All]
- - Browser [All]
- - Version [All]
