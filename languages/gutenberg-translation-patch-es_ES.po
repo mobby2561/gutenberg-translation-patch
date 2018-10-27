@@ -13,11 +13,11 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid "Patch the missing translation strings code on Gutenberg file gutenberg.php"
-msgstr "Parche el código de las cadenas de traducción que faltan en el archivo Gutenberg gutenberg.php"
+msgstr "Corrección del código de las cadenas de traducción que faltan en el archivo Gutenberg gutenberg.php"
 
 #. Plugin Name of the plugin/theme
 msgid "Gutenberg Translation Patch"
-msgstr "Gutenberg Parche Traducción"
+msgstr "Gutenberg Corrección Traducción"
 
 #: gutenberg-translation-patch.php:122
 msgid "Classic Edit"
