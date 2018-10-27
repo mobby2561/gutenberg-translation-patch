@@ -6,7 +6,7 @@
 
 Because the "WordPress Plugin Directory" don't generally accept "patch as plugin" and not for translations, I decided to publish it only on my GitHub, and open an official issue https://github.com/WordPress/gutenberg/issues/11120/ on the Gutenberg development page: now all the polyglots can translate these strings "separately" according to their local language, without restrictions!
 
-**Compatibility**
+**Compatibility**:
 - Gutenberg 4.1.1
 - Classic Editor 0.5
 - WordPress 5.0-beta1
@@ -14,7 +14,7 @@ Because the "WordPress Plugin Directory" don't generally accept "patch as plugin
 - WordPress Branche (src) 5.0-alpha development
 - WordPress Trunk (src) 5.1-alpha development
 
-**Describe the bug** -- _Updated 2018-10-28_
+**Describe the bug**: -- _Updated 2018-10-28_
 
 _The behavior description:_
 - **Missing** the **translation string code**, in script of function "gutenberg_replace_default_add_new_button" in file gutenberg.php:461.
@@ -22,19 +22,19 @@ _The behavior description:_
 
 > This **Bug** _and this patch (for now)_ are **related to Gutenberg Plugin** and **not to WordPress** because the code in question has not yet been imported in core.
 
-**To Reproduce**
+**To Reproduce**:
 
 _Steps to reproduce the behavior:_
 - The **string "Gutenberg"** in file gutenberg.php:461 is **not translatable**.
 - The **strings** gutenberg.php:312 and gutenberg.php:462 **share same translation but is preferable separate translations**.
 
-**Expected behavior**
+**Expected behavior**:
 
 _Steps to fix the behavior:_
 - **Add missed translation code string** `<?php echo esc_js( __( 'Gutenberg', 'gutenberg' ) ); ?>` on script in function gutenberg_replace_default_add_new_button file gutenberg.php:461
 - **Separate translation of shared strings** on script in function gutenberg_replace_default_add_new_button file gutenberg.php:312 and gutenberg.php:462
 
-**Translation**
+**Translation**:
 
 I have add the gutenberg-translation-patch.pot file that it can be used with PoEdit to generate the local translation langs.
 
@@ -88,7 +88,7 @@ I need translation help for this: (ping and send me on slack)
 - Svenska
 - Turke
 
-**Screenshots**
+**Screenshots**:
 
 - https://github.com/luciano-croce/gutenberg-translation-patch/blob/master/screenshot-1.png
 - https://github.com/luciano-croce/gutenberg-translation-patch/blob/master/screenshot-2.png
