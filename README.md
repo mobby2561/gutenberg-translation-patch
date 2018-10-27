@@ -2,7 +2,7 @@
 
 **Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
 
-> This **patch** is **translated in 28 languages** and more **others 11 in becoming** (help me in your lang) see translation.
+> This **patch** is **translated in 28 languages** and **others 11 in becoming** (help me in your lang) see translation section.
 
 Because the "WordPress Plugin Directory" don't generally accept "patch as plugin" and not for translations, I decided to publish it only on my GitHub, and open an official issue https://github.com/WordPress/gutenberg/issues/11120/ on the Gutenberg development page: now all the polyglots can translate these strings "separately" according to their local language, without restrictions!
 
