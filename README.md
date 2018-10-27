@@ -19,6 +19,15 @@ Included Translations:
 - en_GB - English UK
 - en_US - English US
 - es_ES - Spanish Spain
+- es_AR - Spanish Argentina
+- es_CL - Spanish Chile
+- es_CO - Spanish Colombia
+- es_CR - Spanish Costa Rica
+- es_VE - Spanish Venezuela
+- es_GT - Spanish Guatemala
+- es_MX - Spanish Mexico
+- es_PE - Spanish Peru
+- es_US - Spanish US
 - fr_FR - French
 - fr_BE - French Belgium
 - fr_CA - French Canada
@@ -30,15 +39,6 @@ Coming Soon Translations:
 - ca    - Catalan (is included valencia)
 - de_CH - German Switzerland
 - de_DE - German
-- es_AR - Spanish Argentina
-- es_CL - Spanish Chile
-- es_CO - Spanish Colombia
-- es_CR - Spanish Costa Rica
-- es_VE - Spanish Venezuela
-- es_GT - Spanish Guatemala
-- es_MX - Spanish Mexico
-- es_PE - Spanish Peru
-- es_US - Spanish US
 - pt_BR - Portuguese Brazil
 - pt_PT - Portuguese Portugal
 - sv_SE - Swedish
