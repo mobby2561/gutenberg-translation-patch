@@ -26,7 +26,7 @@ _Steps to fix the behavior:_
 
 **Translation**
 
-I have add the gutenberg-translation-patch.pot file that it can be used with PoEdit to generate the local translation for your language.
+I have add the gutenberg-translation-patch.pot file that it can be used with PoEdit to generate the local translation langs.
 
 Some translations was add on distribution file, and more others are coming soon.
 
