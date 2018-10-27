@@ -27,6 +27,7 @@ Included Translations:
 - es_GT - Spanish Guatemala
 - es_MX - Spanish Mexico
 - es_PE - Spanish Peru
+- es_PR - Spanish Puerto Rico
 - es_US - Spanish US
 - fr_FR - French
 - fr_BE - French Belgium
