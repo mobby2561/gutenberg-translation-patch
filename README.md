@@ -43,3 +43,17 @@ Coming Soon Translations:
 - pt_BR - Portuguese Brazil
 - pt_PT - Portuguese Portugal
 - sv_SE - Swedish
+
+I need translation help for this:
+
+- Dansk
+- Greek
+- Nederland
+- Nordish
+- Polski
+- Romana
+- Slovencna
+- Slovenscna
+- Shqip
+- Svenska
+- Turke
