@@ -37,7 +37,7 @@ Included Translations:
 Coming Soon Translations:
 
 - bal   - Catalan Balear (this refer to island)
-- ca    - Catalan (is included valencia)
+- ca    - Catalan (Valencia)
 - de_CH - German Switzerland
 - de_DE - German
 - pt_BR - Portuguese Brazil
