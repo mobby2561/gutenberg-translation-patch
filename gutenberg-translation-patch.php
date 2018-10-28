@@ -2,8 +2,8 @@
 /*
 Plugin Name:       Gutenberg Translation Patch
 Plugin URI:        https://github.com/luciano-croce/gutenberg-translation-patch/
-Description:       Patch the missing translation strings code on Gutenberg file gutenberg.php
-Version:           0.0.1
+Description:       Patch the missing and shared translation strings code on Gutenberg file gutenberg.php
+Version:           0.0.3
 Requires at least: 4.9
 Tested up to:      5.1-alpha
 Requires PHP:      5.2.4
@@ -49,8 +49,8 @@ Requires WP:       4.9
  *
  */
 
-if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION', '0.0.1' );
-if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE', '2018-10-26' );
+if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_VERSION', '0.0.3' );
+if ( ! defined( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE' ) ) define( 'PLUGIN_GUTENBERG_TRANSLATION_PATCH_RELEASE', '2018-10-28' );
  
 remove_action( 'admin_init', 'gutenberg_add_edit_link_filters', 0 );
 remove_action( 'admin_print_scripts-edit.php', 'gutenberg_replace_default_add_new_button', 0 );
@@ -75,7 +75,7 @@ function gutenberg_replace_default_add_new_button_translation_patch_plugin_textd
  * Load MU-Plugin (dir) Textdomain.
  *
  * @author  Luciano Croce <luciano.croce@gmail.com>
- * @version 0.0.1 (Build 2018-10-26)
+ * @version 0.0.2 (Build 2018-10-27)
  */
 function gutenberg_replace_default_add_new_button_translation_patch_muplugin_textdomain() {
 	load_muplugin_textdomain( 'gutenberg-translation-patch', false, basename( dirname( __FILE__ ) ) . '/' );
