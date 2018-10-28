@@ -1,6 +1,6 @@
 # Gutenberg Translation Patch
 
-**Patch** the **missing code** and **shareds translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
+**Patch** the **missing code** and **shared translations** in Gutenberg file gutenberg.php for a better understanding of the meaning.
 
 > This **patch** is **translated in 28 languages** and **others 11 in becoming** (help me in your lang) see translation section.
 
