@@ -2,7 +2,7 @@
 /*
 Plugin Name:       Gutenberg Translation Patch
 Plugin URI:        https://github.com/luciano-croce/gutenberg-translation-patch/
-Description:       Patch the missing and shared translation strings code on Gutenberg file gutenberg.php
+Description:       Fix missing and shared code translation strings in the gutenberg.php file.
 Version:           0.0.3
 Requires at least: 4.9
 Tested up to:      5.1-alpha
