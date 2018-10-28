@@ -1,0 +1,66 @@
+# Translation of Plugins - Gutenberg Translation Patch - Stable (latest release) in "English (US)"
+# This file is distributed under the same license as the Plugins - Gutenberg Translation Patch - Stable (latest release) package.
+msgid "Change the Plural Forms and Language strings to match your local, update date/time creation."
+msgstr ""
+"PO-Revision-Date: 2018-10-28 00:00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_US\n"
+"Project-Id-Version: Plugins - Gutenberg Translation Patch - Stable (latest release)\n"
+
+#. Description of the plugin/theme
+msgid "Fix missing and shared code translation strings in the gutenberg.php file."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg Translation Patch"
+msgstr ""
+
+#: gutenberg-translation-patch.php:122
+msgid "Classic Edit"
+msgstr ""
+
+#: gutenberg-translation-patch.php:123
+msgid "Block Editor"
+msgstr ""
+
+#: gutenberg-translation-patch.php:221
+msgid "Classic Editor"
+msgstr ""
+
+#
+# Classic Editor -> "" -> Classic Editor Plugin Name
+#
+# Classic editor -> ""
+# classic editor -> ""
+#
+# Block Editor -> "" -> Block Editor Plugin Name (Codename Gutenberg)
+#
+# Block editor -> ""
+# block editor -> ""
+# 
+# Classic Block -> "" -> Label or Button
+#
+# Classic block -> ""
+# classic block -> ""
+#
+# Classic Blocks -> "" -> Label or Button
+#
+# Classic blocks -> ""
+# classic blocks -> ""
+#
+# Block -> ""
+# block -> ""
+#
+# Blocks -> ""
+# blocks -> ""
+#
+# Classic -> ""
+# classic -> ""
+#
+# Classics -> ""
+# classics -> ""
+#
