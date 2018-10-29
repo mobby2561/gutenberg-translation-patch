@@ -42,6 +42,8 @@ Some translations was add on distribution file, and more others are coming soon.
 
 Included Translations:
 
+- de_CH - German Switzerland
+- de_DE - German
 - en_AU - English Australian
 - en_CA - English Canada
 - en_NZ - English New Zealand
@@ -70,8 +72,6 @@ Coming Soon Translations:
 
 - bal   - Catalan Balear (this refer to island)
 - ca    - Catalan (Valencia)
-- de_CH - German Switzerland
-- de_DE - German
 - sv_SE - Swedish (partial translated) Help me for this!
 
 I need translation help for this: (ping and send me on slack)
