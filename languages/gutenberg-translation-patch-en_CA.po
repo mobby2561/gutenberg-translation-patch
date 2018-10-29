@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Plugins - Gutenberg Translation Patch - Stable (latest release)\n"
 
 #. Description of the plugin/theme
-msgid "Patch the missing translation strings code on Gutenberg file gutenberg.php"
-msgstr "Patch the missing translation strings code on Gutenberg file gutenberg.php"
+msgid "Fix missing and shared code translation strings in the gutenberg.php file."
+msgstr "Fix missing and shared code translation strings in the gutenberg.php file."
 
 #. Plugin Name of the plugin/theme
 msgid "Gutenberg Translation Patch"
