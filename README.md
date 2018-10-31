@@ -6,7 +6,7 @@
 
 Because the "WordPress Plugin Directory" don't generally accept "patch as plugin" and not for translations, I decided to publish it only on my GitHub, and open an official issue https://github.com/WordPress/gutenberg/issues/11120/ on the Gutenberg development page: now all the polyglots can translate these strings "separately" according to their local language, and polyglots directions https://wordpress.slack.com/archives/C02RP50LK/p1540361456000100/
 
-This **Patch** are **related to Gutenberg Plugin** and **not to WordPress Core**.
+> This **Patch** are **related to Gutenberg Plugin** and **not to WordPress Core**.
 
 **Compatibility**:
 - Gutenberg 4.2+
