@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Language: cs_CZ\n"
+
+#. Description of the plugin/theme
+msgid "Fix missing and shared code translation strings in the gutenberg.php file."
+msgstr "Opravuje chybějící a sdílené řetězce překladu v souboru gutenberg.php."
+
+#. Plugin Name of the plugin/theme
+msgid "Gutenberg Translation Patch"
+msgstr "Gutenberg Translation Patch"
+
+#: gutenberg-translation-patch.php:122
+msgid "Classic Edit"
+msgstr "Upravit klasicky"
+
+#: gutenberg-translation-patch.php:123
+msgid "Block Editor"
+msgstr "Editor bloků"
+
+#: gutenberg-translation-patch.php:221
+msgid "Classic Editor"
+msgstr "Klasický editor"
