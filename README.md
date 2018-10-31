@@ -9,8 +9,9 @@ Because the "WordPress Plugin Directory" don't generally accept "patch as plugin
 **Compatibility**:
 - Gutenberg 4.2+
 - Classic Editor 0.5
-- WordPress 5.0-beta1
+- WordPress 5.0-beta2
 - WordPress 4.9+
+- WordPress 5.1-alpha
 - WordPress Branche (src) 5.0-alpha development
 - WordPress Trunk (src) 5.1-alpha development
 
