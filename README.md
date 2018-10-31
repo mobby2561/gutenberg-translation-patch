@@ -4,7 +4,7 @@
 
 > This **patch** is **translated in 29 languages** and **others 11 in becoming** (help me in your lang) see translation section.
 
-Because the "WordPress Plugin Directory" don't generally accept "patch as plugin" and not for translations, I decided to publish it only on my GitHub, and open an official issue https://github.com/WordPress/gutenberg/issues/11120/ on the Gutenberg development page: now all the polyglots can translate these strings "separately" according to their local language, and polyglots directions https://wordpress.slack.com/archives/C02RP50LK/p1540361456000100/
+I decided to publish it on my GitHub. This patch is written with the intent of being helpful, for all those that are interested on it. Now all the polyglots can translate these strings "separately" according to their local language, and polyglots directions https://wordpress.slack.com/archives/C02RP50LK/p1540361456000100/
 
 > This **Patch** are **related to Gutenberg Plugin** and **not to WordPress Core**.
 
