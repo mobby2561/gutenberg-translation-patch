@@ -66,15 +66,15 @@ Included Translations:
 - fr_BE - French Belgium
 - fr_CA - French Canada
 - it_IT - Italian
+- lij_ZE - Ligurian Language (Genoese) LIJ
 - pt_BR - Portuguese Brazil
 - pt_PT - Portuguese Portugal
 
 Coming Soon Translations:
 
-- bal    - Catalan Balear (this refer to the islands)
-- ca     - Catalan (Valencia is translated as Catalan)
-- lij_ZE - Ligurian Language (Genoese) LIJ
-- sv_SE  - Swedish (partial translated) Help me for this!
+- bal   - Catalan Balear (this refer to the islands)
+- ca    - Catalan (Valencia is translated as Catalan)
+- sv_SE - Swedish (partial translated) Help me for this!
 
 I need translation help for this: (ping and send me on slack)
 
